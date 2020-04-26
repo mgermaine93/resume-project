@@ -1,1 +1,27 @@
 /* CSS Styles go here */
+
+header {
+  text-align: center;
+  font: 16px Helvetica, sans-serif;
+  width: 800px;
+}
+
+body {
+  font: 16px Helvetica, sans-serif;
+  width: 800px;
+  height: 1500px;
+}
+
+#contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#align-left {
+  float: left;
+}
+
+#align-right {
+  float: right;
+}
