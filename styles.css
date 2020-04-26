@@ -1,21 +1,46 @@
 /* CSS Styles go here */
 
-header {
+body article header h1 {
   text-align: center;
-  font: 16px Helvetica, sans-serif;
-  width: 800px;
 }
 
 body {
-  font: 16px Helvetica, sans-serif;
+  font: 16px Helvetica, sans-serif, black;
+  background: #fbfbf8;
   width: 800px;
-  height: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 1%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* Removes underline and color from linkedin URL */
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+#heading {
+  margin-bottom: -5px;
 }
 
 #contact-info {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  list-style: none;
+  justify-content: space-around;
+}
+
+#technical-skills div {
+  margin-bottom: -10px;
+}
+
+#technical-skills #additional-skills {
+  margin-bottom: 0px;
 }
 
 #align-left {
