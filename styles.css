@@ -28,6 +28,10 @@ body article header ul li {
   margin-bottom: -10px;
 }
 
+h1 {
+  margin-bottom: -10px;
+}
+
 /* Removes underline and color from linkedin URL */
 a:link {
   text-decoration: none;
